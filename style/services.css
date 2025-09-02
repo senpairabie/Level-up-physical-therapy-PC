@@ -1,0 +1,271 @@
+:root {
+    --blue: hsla(204.39,79.49%,38.24%,1);
+    --text: #000;
+  }
+  
+  * {
+    padding: 0px;
+    margin: 0px;
+    font-family: pragmatica, sans-serif;
+  }
+  
+  /* ======= المحتوى العام ======= */
+  .section {
+    max-width: 1400px;
+    width: 100%;
+    padding: 40px 20px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .section h1 {
+    color: var(--blue);
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 40px;
+  }
+  
+  .grid {
+    display: grid;
+    gap: 30px;
+    text-align: left;
+  }
+  
+  .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .item ul {
+    list-style: disc;
+    padding-left: 20px;
+    margin: 0 0 15px 0;
+  }
+  
+  .item ul li {
+    margin-bottom: 10px;
+  }
+  
+  .item ul li::marker {
+    font-size: 0.7rem;
+    color: var(--blue);
+  }
+  
+  .item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  /* ======= عدد الأعمدة لكل قسم ======= */
+  .section.what-we-treat .grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  .section.how-we-treat .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  /* ======= القسم الرئيسي (الهيرو) ======= */
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    text-align: center;
+    padding: 0 20px;
+  }
+  
+  .content h1 {
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--blue);
+    margin-bottom: 20px;
+  }
+  
+  .btn-cta {
+    display: inline-block;
+    padding: 0 80px;
+    background-color: #fff;
+    color: var(--blue);
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 50px;
+    border: 2px solid var(--blue);
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-cta:hover {
+    background-color: var(--blue);
+    color: #fff;
+    border: 2px solid var(--blue);
+  }
+  
+  /* ======= قسم Health Plans ======= */
+  .health-plans {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .health-plans h1 {
+    font-size: 38px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--blue);
+    margin: 30px auto 70px auto;
+  }
+  
+  .plans-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    justify-items: center;
+    margin: 50px 0 80px 0;
+  }
+  
+  .plans-grid img {
+    width: 250px;
+    height: 66px;
+    object-fit: contain;
+  }
+  
+  .plans-text {
+    max-width: 800px;
+    margin: 30px auto;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+
+
+  .contact-section h2 {
+    color: var(--blue);
+    font-size: 70px;
+    font-weight: 700;
+  }
+  
+  .contact-section p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  .contact-section a {
+    color: var(--blue);
+    cursor:text;
+    text-decoration: none;
+  }
+  
+  .contact-section a:hover {
+    text-decoration: underline;
+  }
+  
+  .map-container iframe {
+    border-radius: 8px;
+  }
+
+
+  /* ======= Responsive ======= */
+  @media (max-width: 1200px) {
+    .plans-text {
+      font-size: 17px;
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    .section.what-we-treat .grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .section.how-we-treat .grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .plans-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .plans-text {
+      font-size: 12px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .content h1 {
+      font-size: 26px;
+    }
+    .btn-cta {
+      font-size: 18px;
+      padding: 12px 30px;
+    }
+    .health-plans h1 {
+      font-size: 28px;
+      margin: 10px auto 40px auto;
+    }
+    .plans-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .plans-text {
+      font-size: 15px;
+    }
+    .contact-section h2 {
+      font-size: 50px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .section.what-we-treat .grid,
+    .section.how-we-treat .grid {
+      grid-template-columns: 1fr;
+    }
+    .item {
+      text-align: center;
+    }
+    .item ul {
+      padding-left: 0;
+      list-style-position: inside;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .content h1 {
+      font-size: 20px;
+    }
+    .btn-cta {
+      font-size: 16px;
+      padding: 10px 25px;
+    }
+    .health-plans h1 {
+      font-size: 15px;
+      margin: 10px auto 40px auto;
+    }
+    .plans-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .plans-grid img {
+      width: 160px;
+      height: 50px;
+    }
+    .plans-text {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 360px) {
+    .plans-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .plans-grid img {
+      width: 150px;
+      height: 40px;
+    }
+    .plans-text {
+      font-size: 13px;
+    }
+  }
+  

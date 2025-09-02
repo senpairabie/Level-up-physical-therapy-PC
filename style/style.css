@@ -1,0 +1,452 @@
+/* Reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: pragmatica, sans-serif;
+}
+
+/* Variables */
+:root {
+  --primary-color: #1470af;
+  --dark-color: #000;
+  --light-color: #fff;
+  --gray-color: #eaeaee;
+}
+
+/* Navbar */
+nav {
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  margin-top: -10px;
+}
+
+nav .navbar img {
+  width: 100px;
+  height: auto;
+}
+
+nav .btn {
+  background-color: var(--dark-color);
+  color: var(--light-color);
+  font-size: 13px;
+  padding: 10px 20px;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+
+nav .btn:hover {
+  background-color: var(--primary-color);
+}
+
+nav .active::after {
+  content: "";
+  display: block;
+  height: 2px;
+  background-color: var(--primary-color);
+  margin-top: 2px;
+}
+
+nav i {
+  color: var(--primary-color);
+}
+
+nav .navbar-collapse {
+  text-align: center;
+}
+
+nav p, nav li a {
+  color: var(--primary-color) !important;
+  font-weight: 600;
+}
+
+nav a {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+nav p {
+  margin-top: 15px;
+}
+
+/* Close button */
+.btn-close {
+  right: 0;
+  left: auto !important;
+}
+
+/* Hero / Carousel */
+#carouselExampleSlidesOnly .carousel-item img,
+#carouselExampleSlidesOnly .carousel-item video {
+  max-height: 665px;
+  min-height: 400px;
+  object-fit: cover;
+  width: 100%;
+}
+
+#carouselExampleSlidesOnly .overlay {
+  background-color: rgba(0,0,0,0.3);
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  top: 0;
+  z-index: 10;
+}
+
+#carouselExampleSlidesOnly .overlay h3 {
+  font-size: 8vh;
+  color: var(--light-color);
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+/* Shape divider */
+.custom-shape-divider-bottom-1754913357 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1754913357 svg {
+  display: block;
+  width: calc(200% + 1.3px);
+  height: 105px;
+}
+
+.custom-shape-divider-bottom-1754913357 .shape-fill {
+  fill: var(--light-color);
+}
+
+/* About Section */
+.about {
+  padding: 80px 0;
+}
+
+.about h2 {
+  color: var(--primary-color);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 6vh;
+  margin-bottom: 20px;
+}
+
+.about h3 {
+  font-weight: 700;
+  color: var(--dark-color);
+}
+
+.about p {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.about .Services_link {
+  border: 1px solid var(--primary-color);
+  padding: 16px 24px;
+  margin: 40px auto;
+  display: block;
+  width: 50%;
+  min-width: 270px;
+  text-align: center;
+  color: var(--primary-color);
+  font-weight: 700;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+
+.about .Services_link:hover {
+  background-color: var(--primary-color);
+  color: var(--light-color);
+}
+
+.about .row img {
+  height: 235px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.about .row p {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 10px;
+}
+/* Services Section */
+#services {
+  padding: 80px 0;
+  text-align: center;
+}
+
+#services h2 {
+  color: var(--primary-color);
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 38px;
+  margin-bottom: 15px;
+}
+
+#services p {
+  font-size: 16px;
+  color: #555;
+  max-width: 700px;
+  margin: 0 auto 40px;
+}
+
+#services .card {
+  border: none;
+  border-radius: 15px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  margin: auto;
+}
+
+#services .card img {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  height: 220px;
+  object-fit: cover;
+}
+
+#services .card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+#services .card-title {
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+#services .card-text {
+  font-size: 14px;
+  color: #444;
+}
+
+/* Insurance Section */
+#insurance {
+  padding: 80px 0;
+  background-color: #f9f9f9;
+  border-radius: 20px;
+  text-align: center;
+}
+
+#insurance h2 {
+  color: var(--primary-color);
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 38px;
+  margin-bottom: 15px;
+}
+
+#insurance p {
+  font-size: 16px;
+  color: #555;
+  max-width: 700px;
+  margin: 0 auto 30px;
+}
+
+#insurance img {
+  border-radius: 15px;
+  object-fit: cover;
+  max-height: 300px;
+  margin: auto;
+  display: block;
+}
+
+#insurance h5 {
+  font-weight: 700;
+  color: var(--dark-color);
+  margin-bottom: 15px;
+}
+
+#insurance ul {
+  list-style: none;
+  padding-left: 0;
+  text-align: left;
+  display: inline-block;
+}
+
+#insurance ul li {
+  position: relative;
+  padding-left: 22px;
+  margin-bottom: 8px;
+  font-size: 15px;
+  text-align: left;
+}
+
+#insurance ul li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: var(--primary-color);
+  font-size: 14px;
+}
+
+#insurance p.mt-3 {
+  font-size: 14px;
+  color: #444;
+  max-width: 600px;
+  margin: 15px auto 0;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+  #services h2, #insurance h2 {
+    font-size: 32px;
+  }
+  #services p, #insurance p {
+    font-size: 15px;
+  }
+  #insurance ul {
+    text-align: center;
+  }
+  #insurance ul li {
+    text-align: center;
+    padding-left: 0;
+  }
+  #insurance ul li::before {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  #services h2, #insurance h2 {
+    font-size: 26px;
+  }
+  #services p, #insurance p {
+    font-size: 14px;
+  }
+  #services .card img {
+    height: 180px;
+  }
+}
+
+/* Team Section */
+.team {
+  padding: 80px 0;
+}
+
+.team .rounded-circle {
+  overflow: hidden;
+  width: 220px;
+  height: 220px;
+  border: 3px solid var(--primary-color);
+  margin: auto;
+}
+
+.team .rounded-circle img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.team span {
+  display: block;
+  margin-top: 12px;
+  color: var(--dark-color);
+  font-weight: 600;
+}
+
+/* Testimonials */
+.testimonials {
+  padding: 100px 0;
+}
+
+.testimonials h2 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 40px;
+  color: var(--primary-color);
+}
+
+.testimonials h3 {
+  font-weight: 700;
+  text-align: justify;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.testimonials span {
+  font-size: 12px;
+}
+
+/* Footer */
+footer {
+  background-color: var(--gray-color);
+  padding: 50px 0;
+  margin-top: 60px;
+}
+
+footer h5, footer h6 {
+  text-transform: uppercase;
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+footer h5 {
+  font-size: 26px;
+  margin-top: 20px;
+}
+
+footer h6 {
+  font-size: 16px;
+  margin: 20px 0 15px;
+}
+
+footer a {
+  color: var(--dark-color);
+  text-decoration: none;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+footer a:hover {
+  color: var(--primary-color);
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+  nav .navbar img {
+    width: 80px;
+  }
+
+  #carouselExampleSlidesOnly .overlay h3 {
+    font-size: 36px !important;
+  }
+
+  .about h2 {
+    font-size: 32px;
+  }
+
+  .team .rounded-circle {
+    width: 180px;
+    height: 180px;
+  }
+
+  footer h5 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  #carouselExampleSlidesOnly .overlay h3 {
+    font-size: 24px !important;
+  }
+
+  .about .Services_link {
+    width: 80%;
+  }
+
+  footer img {
+    width: 180px;
+    height: auto;
+  }
+}

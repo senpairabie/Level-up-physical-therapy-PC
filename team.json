@@ -1,0 +1,124 @@
+[
+    {
+      "id": "ehab",
+      "name": "Ehab Elkady",
+      "title": "DPT",
+      "image": "./images/ehab.webp",
+      "bio": [
+        "Ehab Elkady, DPT is a highly experienced physical therapist with over 20 years of dedication to improving patient outcomes through innovative physical therapy techniques.",
+        "With a Doctor of Physical Therapy (DPT) degree and decades of hands-on experience, Ehab has developed a deep understanding of the human body and its capacity for healing.",
+        "He utilizes a holistic approach that blends traditional physical therapy with modern modifications tailored to each patient’s unique needs."
+      ],
+      "sections": [
+        {
+          "heading": "Specializations:",
+          "list": [
+            "Chronic pain management and mobility issues",
+            "Sports injuries rehabilitation",
+            "Post-surgical rehabilitation"
+          ]
+        },
+        {
+          "heading": "Approach:",
+          "list": [
+            "Personalized care with sustainable treatment plans",
+            "Holistic blend of traditional and modern therapy",
+            "Focus on long-term health and wellness"
+          ]
+        }
+      ],
+      "conclusion": "Throughout his career, Ehab has earned a reputation for his dedication to patient care, adaptability in treatment plans, and commitment to staying at the forefront of physical therapy advancements."
+    },
+    {
+      "id": "elhussein",
+      "name": "Elhussein Ahmed",
+      "title": "DPT",
+      "image": "./images/33.webp",
+      "bio": [
+        "Dr. Elhussein Ahmed is a New York-based physical therapist with 12 years of experience.",
+        "He graduated in 2008 and specializes in the evaluation and treatment of individuals suffering from health problems caused by injury or disease.",
+        "His expertise lies in assessing joint motion, muscle strength and endurance, cardiovascular function, and performance in daily activities."
+      ],
+      "sections": [
+        {
+          "heading": "Dr. Ahmed's treatment approach includes:",
+          "list": [
+            "Therapeutic Exercises: Targeted exercise programs to restore function, improve mobility, and strengthen muscles.",
+            "Cardiovascular Endurance Training: Exercises to improve heart and lung function.",
+            "Training in Activities of Daily Living (ADLs): Guidance on performing daily activities like walking, dressing, and cooking."
+          ]
+        },
+        {
+          "heading": "He employs a range of modalities such as:",
+          "list": [
+            "Light, Heat, Cold Therapy for pain relief and healing",
+            "Hydrotherapy for rehabilitation",
+            "Electrical Stimulation and Massage to improve circulation and muscle function"
+          ]
+        }
+      ],
+      "conclusion": "Dr. Ahmed is committed to developing personalized treatment plans based on each patient's strengths, weaknesses, and functional goals, helping them regain independence and enhance their quality of life."
+    },
+    {
+      "id": "sherif",
+      "name": "Sherif Sobh",
+      "title": "Exercise Physiologist",
+      "image": "./images/p.jpg",
+      "bio": [
+        "Sherif Sobh is a highly skilled Exercise Physiologist with 20 years of experience in the science of human movement, exercise, and rehabilitation.",
+        "His expertise covers clinical rehabilitation, chronic disease management, sports performance enhancement, and general fitness.",
+        "Throughout his career, Sherif has worked in hospitals, rehabilitation centers, and sports facilities, designing and delivering evidence-based exercise programs tailored to each individual’s needs."
+      ],
+      "sections": [
+        {
+          "heading": "Expertise:",
+          "list": [
+            "Clinical rehabilitation and chronic disease management",
+            "Sports performance enhancement",
+            "General fitness and lifestyle improvement"
+          ]
+        },
+        {
+          "heading": "Approach:",
+          "list": [
+            "Health and fitness assessments",
+            "Safe and effective evidence-based training plans",
+            "Education on lifestyle strategies for long-term wellness"
+          ]
+        }
+      ],
+      "conclusion": "By combining scientific knowledge of human physiology and biomechanics with practical application, Sherif has helped patients recover from injuries, manage chronic conditions, and optimize athletic performance."
+    },
+    {
+      "id": "hassan",
+      "name": "Alhassan Ahmed",
+      "title": "PT, MSc",
+      "image": "./images/PHOTO-2024-08-26-11-11-27.webp",
+      "bio": [
+        "Dr. Alhassan Ahmed is a physical therapist with a master’s degree in rehabilitation sciences.",
+        "He specializes in neurological rehabilitation and pediatric therapy, bringing advanced techniques to help patients with complex conditions.",
+        "With years of clinical experience, he has supported patients of all ages to achieve functional independence and improved quality of life."
+      ],
+      "sections": [
+        {
+          "heading": "Focus Areas:",
+          "list": [
+            "Neurological rehabilitation (stroke, spinal cord injury, MS, etc.)",
+            "Pediatric physical therapy",
+            "Functional mobility improvement"
+          ]
+        },
+        {
+          "heading": "Methods of Care:",
+          "list": [
+            "Task-oriented training",
+            "Balance and coordination therapy",
+            "Hydrotherapy for neurological patients",
+            "Family education and home program design"
+          ]
+        }
+      ],
+      "conclusion": "Dr. Alhassan is passionate about helping patients of all ages improve their mobility and achieve greater independence through evidence-based rehabilitation practices."
+    }
+  ]
+  
